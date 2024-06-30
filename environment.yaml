@@ -1,0 +1,8 @@
+name: ppt_to_pdf_conversion
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - Spire.Presentation
