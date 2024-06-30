@@ -1,26 +1,26 @@
 # PowerPoint to PDF Conversion Tool
 
-This Python script automates the conversion of PowerPoint (.ppt and .pptx) files to PDF format using Aspose.Slides. It scans a specified folder for PowerPoint files and converts each one to a PDF file in the same location.
+This Python script automates the conversion of PowerPoint (.ppt and .pptx) files to PDF format using Spire.Presentation. It scans a specified folder for PowerPoint files and converts each one to a PDF file in the same location.
 
 ## Prerequisites
 
 - Python 3.9
-- Aspose.Slides for Python
+- Spire.Presentation for Python
 
 ## Installation
 
-First, ensure that Python 3.9 is installed on your system. Then, install Aspose.Slides via pip:
+First, ensure that Python 3.9 is installed on your system. Then, install Spire.Presentation via pip:
 
 ```sh
-pip install aspose.slides
+
+pip install Spire.Presentation
 ```
 
-Alternatively, you can create a conda environment using the provided [`environment.yaml`](vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html "c:\Users\maste\OneDrive\Desktop\Coding\PPT-to-PDF\environment.yaml") file:
+Alternatively, you can create a conda environment using the provided [`environment.yaml`](vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html "environment.yaml") file:
 
 ```
 conda env create -f environment.yaml
 ```
-
 
 ## Usage
 
@@ -34,7 +34,7 @@ The script will automatically find and convert all PowerPoint files in the curre
 
 ## How It Works
 
-The script uses the `aspose.slides` library to open each PowerPoint file and save it as a PDF. It looks for files with the `.ppt` or `.pptx` extension in the specified folder and processes each file found.
+The script uses the `Spire.Presentation` library to open each PowerPoint file and save it as a PDF. It looks for files with the `.ppt` or `.pptx` extension in the specified folder and processes each file found.
 
 ## Contributing
 
