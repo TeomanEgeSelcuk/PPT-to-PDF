@@ -1,3 +1,7 @@
 **/*.pdf
 **/*.ppt
 **/*.pptx
+
+# Ignore the inputs and output directories
+inputs/
+output/
